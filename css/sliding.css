@@ -1,0 +1,35 @@
+.cpbtn{
+    float: left;
+    width: 30px;
+    height: 24px;
+    background: linear-gradient(#fff,#ddd);
+    border: #aaa 1px solid;
+    border-radius: 2px;
+    padding: 2px 4px;
+    cursor: pointer;
+
+
+}
+.cpbtn:hover{
+    background-color: aqua;
+   
+}
+#cp{
+    position: fixed;
+    left: -260px;
+    top: 35px;
+    width: 260px;
+    height: 0px;
+    background: #333;
+    transition: all .3s linear 0s;
+    opacity: .5;
+}
+.cpbtn > div{
+   
+    width: 20px;
+    height: 4px;
+    background: #333;
+    margin: 2px 0px;
+    border-radius: 4px;
+    transition: background .5s linear;
+}

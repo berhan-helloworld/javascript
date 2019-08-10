@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+#clock{
+    position: relative;
+    background: url("/./_images/clock.png") no-repeat;
+    width: 360px;
+    height: 360px;
+    margin: auto 50%;
+}
+#clock > #hh, #mh, #sh
+{
+    position: absolute;
+    transform-origin: bottom;
+    background: #0099cc;
+    border-radius: 7px;
+    opacity: 1;
+} 
+
+#clock > #hh
+{
+    width:8px;
+    height: 70px;
+    top: 45px;
+    left: 110px;
+}
+
+#clock > .dot
+{
+    position: relative;
+    width:20px;
+    height: 20px;
+    background-color: red;
+    top: 103px;
+    left: 104px;
+    border-radius: 50%;
+}
+
+#clock > #mh
+{
+    width:6px;
+    height: 85px;
+    top: 30px;
+    left: 110px;
+    background-color: green;
+}
+
+#clock > #sh
+{
+    width:2px;
+    height: 95px;
+    top: 22px;
+    left: 112px;
+    opacity: .3;
+    background-color: red;
+}
